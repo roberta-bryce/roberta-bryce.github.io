@@ -1,3 +1,52 @@
-body {
-  background-color: blue;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.entry {
+  max-width: 50vw;
+  display: block;
+  margin: auto;
+  padding: 100px 0 0 0;
+  align-items:center
+}
+
+.entry span{
+  padding: 10px;
+  display:block;
+}
+
+.entry p {
+  padding: 10px 0;
+}
+
+.entry li{
+  margin-left: 30px;
+}
+
+.entry-header {
+  font-family: 'Press Start 2P', serif;
+  font-size: 1rem;
+  color: #a6dae1;
+}
+
+.date {
+  font-size: 0.5rem;
+}
+
+.entry-contents {
+  font-family: 'Roboto', sans-serif;
+}
+
+.question {
+  font-style: italic;
+  font-weight: 400;
+  margin: 50px 10px 0 0;
+  color: #a6dae1;
+}
+
+.answer {
+  color: #23b4cf;
 }
