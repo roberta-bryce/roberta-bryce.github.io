@@ -3,17 +3,62 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
+  background-color: #fffbf0;
 }
 
-#angel-pc {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 799px) {
+  .entry {
+    max-width: 100vw;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  header h2 {
+    text-align: center;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  #angel-pc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header img {
+    width: 75vw;
+  }
+
+  #arrow{
+    max-width: 25px;
+    opacity: 50%;
+  }
+
+}
+
+@media (min-width: 800px) {
+  .entry {
+    max-width: 50vw;
+  }
+
+  #angel-pc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header h2 {
+    font-size: 1.5rem;
+  }
+
+  #arrow{
+    max-width: 3vw;
+  }
+
 }
 
 header h2 {
   font-family: 'Press Start 2P', serif;
-  font-size: 1rem;
   color: #23b4cf;
   width: 100%;
   display: flex;
@@ -22,14 +67,12 @@ header h2 {
 }
 
 #arrow{
-  max-width: 3vw;
   position: fixed;
   bottom: 1vw;
   right: 0;
 }
 
 .entry {
-  max-width: 50vw;
   display: block;
   margin: auto;
   padding: 100px 0 0 0;
@@ -51,7 +94,7 @@ header h2 {
 
 .entry-header {
   font-family: 'Press Start 2P', serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #a6dae1;
 }
 
