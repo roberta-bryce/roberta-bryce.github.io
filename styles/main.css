@@ -2,7 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+  font-size: 16px;
+}
+#angel-pc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h2 {
+  font-family: 'Press Start 2P', serif;
+  font-size: 1rem;
+  color: #23b4cf;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .entry {
