@@ -20,14 +20,14 @@
   <div id="angel-pc">
   <img src="images/angel-pc.gif">
   </div>
-  <h2><a href="/index.html">Roberta Bryce - DevAcademy</a></h2>
+  <h2><a href="../index.html">Roberta Bryce - DevAcademy</a></h2>
 
   <div class="dropdown-friends">
     <div class="dropdown">
       <button class="dropbtn">Sprint</button>
       <div class="dropdown-content">
-        <a href="identity.html">Sprint 1</a>
-        <a href="html-css.html">Sprint 2</a>
+        <a href="/blog/identity.html">Sprint 1</a>
+        <a href="/blog/html-css.html">Sprint 2</a>
       </div>
     </div>
 
@@ -66,6 +66,44 @@
 
 
 <body>
+
+  <div class="entry">
+
+    <div class="entry-header">
+
+      <span class="date">08/09/22</span>
+      <span class="sprint">Sprint 2</span>
+      <span class="title">CSS Concepts - Positioning</span>
+
+    </div>
+
+    <div class="entry-contents">
+      <span class="question">What are the differences between relative, absolute, and fixed positioning?</span>
+      <span class="answer">
+      <p>To understand positioning better I used the sources of <a href="https://www.youtube.com/watch?v=UO8ed-JB4So&ab_channel=FollowAndrew" target="_blank">Follow Andrew's CSS Positioning Tutorial</a>, <a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">W3School</a> , and <a href="https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/" target="_blank">CSS Tricks.</a></p>
+      <p>Positioning controls where an object appears on a document (website). There are 5 different kinds of positioning: Static, Relative, Absolute, Fixed and Sticky.</p> 
+      <p>First lets cover what the have in common:</p>
+      <ul>
+        <li>positioning is always based on the 4 attributes; Top, Right, Bottom, and Left</li>
+        <li>positioning is controlled by + and - values, + pushes inward from the value and - pushes outward away from the value</li>
+      </ul>
+      <p>Now for the differences!</p>
+      <p>Relative:</p>
+      <p>Relative positioning is based on the object's default position. Using 'Position: Relative and Top: 100px' the object will move 100px downwards from the top (pushing away) of where the object used to be. When the object's position is changed using Relative it does not effect document flow, what I mean by that is that it leaves a little ghost behind that all other objects will awknowledge as still there despite not displaying there anymore.</p>
+      <img src="/images/relative.png">
+      <p>Absolute:</p>
+      <p>Absolute positioning works on a buddy system. All movement is based on the object's parent element, so for 'Position: Absolute and Top:100px' the object will move 100px down from the top of it's parent. Document flow is affected by Absolute positioning, so when the object moves all other objects will shift to match.</p>
+      <img src="/images/absolute.png">
+      <p>Fixed:</p>
+      <p>Fixed positioning is based on the viewport i.e. the browser. It behaves a lot like Absolute but rather than it's parent being a containing object, it's parent is the browser window itself. So in the case of 'Position: Fixed and Top:100px' the object will move 100px away from the top of the browser window. It also affects document flow, so all other objects on the page will react to the shift.</p>
+      <img src="/images/fixed.png">
+    </span>
+
+    </div>
+
+  </div>
+
+  
   <div class="entry">
    
     <div class="entry-header">
