@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<head>
+  <meta charset="utf-8">
+  <title>Roberta's DevAcademy Blog</title>
+  <meta name="author" content="Roberta Bryce">
+  <meta name="description" content="Roberta's DevAcademy Blog">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="../styles/main.css" rel="stylesheet">
+</head>
+
+<header>
+  <div id="angel-pc">
+  <img src="images/angel-pc.gif">
+  </div>
+  <h2>Roberta Bryce - DevAcademy</h2>
+</header>
+
+  <div class="entry">
+
+    <div class="entry-header">
+
+      <span class="date">08/09/22</span>
+      <span class="sprint">Sprint 2</span>
+      <span class="title">CSS Concepts - Positioning</span>
+
+    </div>
+
+    <div class="entry-contents">
+      <span class="question">What are the differences between relative, absolute, and fixed positioning?</span>
+      <span class="answer">
+      <p>To understand positioning better I used the sources of <a href="https://www.youtube.com/watch?v=UO8ed-JB4So&ab_channel=FollowAndrew" target="_blank">Follow Andrew's CSS Positioning Tutorial</a>, <a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">W3School</a> , and <a href="https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/" target="_blank">CSS Tricks.</a></p>
+      <p>Positioning controls where an object appears on a document (website). There are 5 different kinds of positioning: Static, Relative, Absolute, Fixed and Sticky.</p> 
+      <p>First lets cover what the have in common:</p>
+      <ul>
+        <li>positioning is always based on the 4 attributes; Top, Right, Bottom, and Left</li>
+        <li>positioning is controlled by + and - values, + pushes inward from the value and - pushes outward away from the value</li>
+      </ul>
+      <p>Now for the differences!</p>
+      <p>Relative:</p>
+      <p>Relative positioning is based on the object's default position. Using 'Position: Relative and Top: 100px' the object will move 100px downwards from the top (pushing away) of where the object used to be. When the object's position is changed using Relative it does not effect document flow, what I mean by that is that it leaves a little ghost behind that all other objects will awknowledge as still there despite not displaying there anymore.</p>
+      <p>Absolute:</p>
+      <p>Absolute positioning works on a buddy system. All movement is based on the object's parent element, so for 'Position: Absolute and Top:100px' the object will move 100px down from the top of it's parent. Document flow is affected by Absolute positioning, so when the object moves all other objects will shift to match.</p>
+      <p>Fixed:</p>
+      <p>Fixed positioning is based on the viewport i.e. the browser. It behaves a lot like Absolute but rather than it's parent being a containing object, it's parent is the browser window itself. So in the case of 'Position: Fixed and Top:100px' the object will move 100px away from the top of the browser window. It also affects document flow, so all other objects on the page will react to the shift.</p>
+    </span>
+
+    </div>
+
+  </div>
