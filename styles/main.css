@@ -144,7 +144,7 @@ header h2 {
 .entry {
   display: block;
   margin: auto;
-  padding: 100px 0 0 0;
+  padding: 100px 0 10px 0;
   align-items:center;
 }
 
@@ -181,7 +181,12 @@ header h2 {
   margin: 50px 10px 0 0;
   color: #a6dae1;
 }
-
+.sub-question {
+  font-style: normal;
+  font-weight: 400;
+  margin: 10px 10px 0 0;
+  color: #a6dae1;
+}
 .answer {
   color: #23b4cf;
 }
