@@ -167,6 +167,11 @@ header h2 {
   color: #a6dae1;
 }
 
+.entry iframe {
+  width: 100%;
+  min-height: 20em;
+}
+
 .date {
   font-size: 0.5rem;
 }
