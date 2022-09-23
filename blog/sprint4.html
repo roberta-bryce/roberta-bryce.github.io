@@ -49,6 +49,7 @@
         <a href="/blog/emotional-intelligence.html">Emotional Intelligence</a>
         <a href="/blog/javascript-dom.html">JS Fundamentals</a>
         <a href="/blog/neuroplasticity.html">Neuroplasticity</a>
+        <a href="/blog/problem-solving.html">Problem Solving</a>
       </div>
     </div>
   </div>
@@ -58,16 +59,63 @@
 
 <body>
 
-  <div class="entry">
-   
-    <div class="entry-header">
+    <div class="entry">
 
-      <span class="date">19/09/22</span>
-      <span class="sprint">Sprint 4</span>
-      <span class="title">Neuroplasticity and Growth Mindset</span>
-
+      <div class="entry-header">
+  
+        <span class="date">23/09/22</span>
+        <span class="sprint">Sprint 4</span>
+        <span class="title">Problem Solving</span>
+  
+      </div>
+  
+      <div class="entry-contents">
+        <span class="question">A time you were blocked on a simple problem:</span>
+        <span class="answer">
+        <p>The Built-in Methods ‘Where Are You?’ Kata had two different problems that I’m sure were simple but for some reason my brain couldn’t compute. First I was unable to figure out the name of the object, and second I couldn’t get anything working outside of the function.</p>
+        <p>I actually never figured out the name of the object. I checked console.log(arrayOfObjects) in the whereAreYou_test.js file and tried the names I thought could apply cycling through them. With no luck. I thought I needed the name of the object as you need to call the whereAreYou function outside of itself to use the find method, and once I left the whereAreYou function arrayOfObjects was not defined…</p>
+        <p>This also leads to my second problem of I couldn’t code outside of my functions, it would cause the test program to have a wobble and interfere with other functions. This meant I couldn’t call the function while using the find method and couldn’t use the object name even if I did work it out. I tried rewriting my code with small alterations but nothing was working.</p>
+        <p>So rather than solving those two problems separately I combined them as the solution needed was ‘how do I get everything working within the function?’ This led to a lot of googling and a lot of youtube tutorials until I found an example of using the find method in one line using a fat arrow, which I updated with the correct details for the object:</p>
+        <p><b>const result = arrayOfObjects.find(({ hiding }) => hiding === 'Scooby');</b></p>
+        <p>Worked a treat! Felt very satisfying to get it working. Throughout the process I was annoyed that my issue involved working outside a function as normally that wouldn’t be an issue, also this looked deceptively easy so I felt a bit bad tripping up on this question. That was all backburner though, for the most part my emotions were focused on reaching the finish line of the Katas.</p>
+        <p>Overall I learnt that perseverance works. I knew the solution was out there, it just took time to get there, and along the way my understanding of the find method improved so it’s no loss.</p>
+      </span>
+        <span class="question">An elegantly solved a problem:</span>
+        <span class="answer">
+        <p>The Kata of FizzBuzz was my smoothest coding experience this Sprint.</p>
+        <p>I kept the problem explanation as pseudocode at the top to refer to. Even with the way the problem was phrased referenced using a conditional. So I used my favourite if/else. </p>
+        <p>So I coded it up looking good, but still bringing up an error. I rubber duckie-d it and yeah I felt really good about my maths so what was happening? Turned to my bff google and immediately found out the issue I was using divide rather than remainder - forgot I was talking to a computer and not a maths teacher. Once I changed my divides over to remainders it FizzBuzzed like a champion. </p>
+        <p>Throughout the process I felt pretty keyed in, so I didn’t really keep tabs of emotions.</p>
+        <p>On this one I learnt to respect my code for the dumb robot that she is and got a bit more comfortable with remainders.</p>
+      </span>
+      <span class="question">Reflect on how confident you feel using each of these problem-solving techniques/processes:</span>
+        <span class="answer">
+        <ul>
+          <li><b>Pseudocode - </b>is very useful for giving me direction, but sometimes it can lead me astray if I don't understand the question</li>
+          <li><b>Trying something - </b>literally all I do, so incredibly confident in this</li>
+          <li><b>Rubber ducky method - </b>it helps give me new ideas, but holes in my knowledge kind of undermine the innocent ducky</li>
+          <li><b>Reading error messages - </b>getting more confident! I'm finding them incredibly useful and have saved me from making silly mistakes</li>
+          <li><b>Console.logging - </b>also beginning to use more often, just console.logging every pivot in the code to make sure it's behaving how I want it to</li>
+          <li><b>Googling - </b>another favourite, I feel like I'm getting better at phrasing my searches</li>
+          <li><b>Asking your peers for help - </b>I try to exhaust my own options before I take to discord, but it's so helpful having fresh eyes on a problem</li>
+          <li><b>Asking coaches for help - </b>the 2pm session is incredibly helpful, especially having people explain as they code</li>
+          <li><b>Improving your process with reflection - </b>for questions I struggle with I write down the solution and explain how it works, the more I reflect the more the solution will solidify in my mind (hopefully)</li>         
+        </ul>
+        </span>
+  
+      </div>
+  
     </div>
-
+    
+    <div class="entry">
+   
+      <div class="entry-header">
+  
+        <span class="date">19/09/22</span>
+        <span class="sprint">Sprint 4</span>
+        <span class="title">Neuroplasticity and Growth Mindset</span>
+  
+      </div>
     <div class="entry-contents">
       <span class="question">Discuss how understanding the principles of neuroplasticity benefits people</span>
       <span class="answer">

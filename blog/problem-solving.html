@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
+<head>
   <meta charset="utf-8">
   <title>Roberta's DevAcademy Blog</title>
   <meta name="author" content="Roberta Bryce">
   <meta name="description" content="Roberta's DevAcademy Blog">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="/styles/main.css" rel="stylesheet">
+  <link href="../styles/main.css" rel="stylesheet">
 </head>
 
 <header>
 
   <div id="angel-pc">
-  <img src="../images/angel-pc.gif">
+    <img src="../images/angel-pc.gif">
   </div>
   <h2><a href="../index.html">Roberta Bryce - DevAcademy</a></h2>
 
@@ -58,7 +57,7 @@
 </header>
 
 
-
+<body>
   <div class="entry">
 
     <div class="entry-header">
@@ -103,95 +102,15 @@
       </ul>
       </span>
 
-    </div>
-
-  </div>
-
-  <div class="entry">
-
-    <div class="entry-header">
-  
-      <span class="date">15/09/22</span>
-      <span class="sprint">Sprint 3</span>
-      <span class="title">JS Fundamentals</span>
-  
-    </div>
-
-  <div class="entry-contents">
-    <span class="question">An analogy to describe JavaScript and its relationship to HTML and CSS</span>
-    <span class="answer">
-    <p>First thing that comes to mind is an orchestra. In this case HTML are the musicians that are seated and waiting on stage, while CSS is the stage manager that has told them where to sit and the dress code for the performance. </p>
-    <p>Now JavaScript is the conductor that actually tells the musicians (HTML) when to play and how to play. The conductor could not show up and we’d just be watching nicely arranged musicians doing nothing, but with the conductor there we will get the full performance.</p>
-    </span>
-    <span class="question">Explain control flow and loops using an example process from everyday life, for example, 'waking up' or 'brushing your teeth' (but not those)</span>
-    <span class="answer">
-    <p>Control flow is the way the code is read by Javascript. Javascript reads code in a similar way to how we would: from top to bottom. As Javascript reads its way down the code it can encounter loops that will make Javascript reread the loop as many times as asked</p>
-    <p>So if you were writing some code for Javascript to put on shoes you could use loops to streamline repeated actions. Put a shoe on one foot, put a shoe on one foot - it’s the same action so let’s loop it for how many feet we have and now we have shoes on both feet! Loops can extend to how the shoelaces are tied as well, or putting on socks… loops are a way to streamline the code so Javascript doesn’t have to read a repetitive boring manual to tie shoes and can just automatically repeat instructions as it runs through its control flow.</p>
-    </span>
-    <span class="question">Describe what the DOM is and an example of how you might interact with it</span>
-    <span class="answer">
-    <p>The DOM, Document Object Model, works as a family tree for html. For the DOM the Window is the greatest grandpappy of them all, while elements like "< p >" or "< img >" are the little rugrats at the bottom.</p>
-    <p>So when Javascript wants to manipulate a html element on the website page it has to call out the family tree ala ‘Gimli son of Gloin, son of Groin, son of…’ in order to get the correct element. So to apply the family tree analogy; we the coders can ask Javascript to read through the DOM tree for all family members that are ‘buttons’ and Javascript will present a list (called a nodeList) of all the buttons on the page. Javascript has a lot of love for the firstborn, but through the nodeList we can tell Javascript what button it should be working on and can start manipulating the exact html elements we want.</p>
-    </span>
-    <span class="question">Explain the difference between accessing data from arrays and objects</span>
-    <span class="answer">
-    <p>Both Arrays and Objects are ways to store values. The main difference between the two is that Arrays can only store one value:</p>
-    <p><b>fruits ["apple", "banana", "kiwi"]</b></p>
-    <p>while objects can store multiple values by using a key:</p>
-    <p><b>fruits = {name: "apple", quantity: 2, colour: "red"}, {name: "banana", quantity: 6; colour: "yellow"};</b></p>
-    </span>
-    <span class="question">Explain what functions are and why they are helpful</span>
-    <span class="answer">
-    <p>Functions are a container for code. First you define a function by creating the container and popping the code you want inside, then later you can call a function and the code you saved in that container gets activated. This way rather than rewriting the code over and over again you can use a function as a shortcut. With functions it saves on time coding a project and streamlines the reading process of the code.</p>
-    <p>The breakdown of a function is:</p>
-    <p>Declare:</p>
-    <p><b>functionName (parameters) {</b></p>
-    <p><b>What the parameters are doing</b></p>
-    <p><b>}</b></p>
-    <p>Call:</p>
-    <p><b>functionName ()</b></p>
-    </span>
-  </div>
-
-</div>
-
-  <div class="entry">
-
-    <div class="entry-header">
-
-      <span class="date">08/09/22</span>
-      <span class="sprint">Sprint 2</span>
-      <span class="title">CSS Concepts - Positioning</span>
-
-    </div>
-
-    <div class="entry-contents">
-      <span class="question">What are the differences between relative, absolute, and fixed positioning?</span>
-      <span class="answer">
-      <p>To understand positioning better I used the sources of <a href="https://www.youtube.com/watch?v=UO8ed-JB4So&ab_channel=FollowAndrew" target="_blank">Follow Andrew's CSS Positioning Tutorial</a>, <a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">W3School</a> , and <a href="https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/" target="_blank">CSS Tricks.</a></p>
-      <p>Positioning controls where an object appears on a document (website). There are 5 different kinds of positioning: Static, Relative, Absolute, Fixed and Sticky.</p> 
-      <p>First lets cover what the have in common:</p>
-      <ul>
-        <li>positioning is always based on the 4 attributes; Top, Right, Bottom, and Left</li>
-        <li>positioning is controlled by + and - values, + pushes inward from the value and - pushes outward away from the value</li>
-      </ul>
-      <p>Now for the differences!</p>
-      <p>Relative:</p>
-      <p>Relative positioning is based on the object's default position. Using 'Position: Relative and Top: 100px' the object will move 100px downwards from the top (pushing away) of where the object used to be. When the object's position is changed using Relative it does not effect document flow, what I mean by that is that it leaves a little ghost behind that all other objects will awknowledge as still there despite not displaying there anymore.</p>
-      <img src="/images/relative.png">
-      <p>Absolute:</p>
-      <p>Absolute positioning works on a buddy system. All movement is based on the object's parent element, so for 'Position: Absolute and Top:100px' the object will move 100px down from the top of it's parent. Document flow is affected by Absolute positioning, so when the object moves all other objects will shift to match.</p>
-      <img src="/images/absolute.png">
-      <p>Fixed:</p>
-      <p>Fixed positioning is based on the viewport i.e. the browser. It behaves a lot like Absolute but rather than it's parent being a containing object, it's parent is the browser window itself. So in the case of 'Position: Fixed and Top:100px' the object will move 100px away from the top of the browser window. It also affects document flow, so all other objects on the page will react to the shift.</p>
-      <img src="/images/fixed.png">
-    </span>
 
     </div>
 
   </div>
 
+
+  <script src="js/script.js"></script>
 </body>
+
 <footer>
   <a href="#angel-pc"><img id="arrow" src="/images/arrow.png"></a>
 </footer>
