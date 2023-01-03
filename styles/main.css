@@ -141,6 +141,13 @@ header h2 {
   right: 0;
 }
 
+.landing {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
 .entry {
   display: block;
   margin: auto;
